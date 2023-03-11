@@ -1,0 +1,9 @@
+.App {
+  border: 70px solid #e00521;
+  border-bottom: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.pages {
+  display: flex;
+}

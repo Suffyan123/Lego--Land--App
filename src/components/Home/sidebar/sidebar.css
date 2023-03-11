@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.width {
+  width: 100%;
+}
+.sidebar {
+  width: 25.1%;
+  height: auto;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family:; */
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: start;
+}
+.mg-left {
+  margin-left: 12%;
+}
+.checkbox {
+  /* color: red; */
+  background-color: red;
+}
+.from {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 23px;
+  margin: 11px 0px 11px 0px;
+}
+.btn-small {
+  width: 106px;
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 4px 9px 7px 12px;
+}
+.num-span {
+  font-weight: 700;
+  font-size: 15px;
+}
+.text-span {
+  font-weight: 100;
+  font-size: 13px;
+}
+.range-width {
+  width: 76%;
+}
+.dropdown {
+  font-size: 40px;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  height: 74px;
+  width: 91%;
+  background: white;
+  overflow-y: scroll;
+  margin: 0px 0px 24px 12px;
+  border: none;
+}
+.forceflow {
+  min-height: 97px;
+}
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(234, 41, 41, 0.3);
+  border-radius: 10px;
+  background-color: white;
+}
+.scroll::-webkit-scrollbar {
+  width: 9px;
+  background-color: white;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(196, 6, 6, 0.3);
+  background-color: red;
+}
+.span-one {
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fliter-btn {
+  margin-top: 10px;
+  width: 86%;
+  background-color: red;
+  padding: 7px 3px 7px 4px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.display-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.dl-icon {
+  font-size: 31px;
+  margin: 12px 0px 0px 0px;
+}
